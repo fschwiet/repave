@@ -58,6 +58,7 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:HTTP
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:HTTPRedirection"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IIS7_ExtensionLessURLs"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IISManagementConsole"
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IISManagementScriptsAndTools"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IPSecurity"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:ISAPIExtensions"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:ISAPIFilters"
@@ -70,3 +71,8 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Stat
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:StaticContentCompression"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Tracing"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:WindowsAuthentication"
+
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IISExpress"
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:AppFabric"
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:AppFabricSetup"
+
