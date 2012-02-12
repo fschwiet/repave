@@ -27,16 +27,16 @@ iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
 cinst windowstelnet
 cinst virtualclonedrive
 cinst sysinternals
-cinst notepadplusplus
-cinst adobereader
+#cinst notepadplusplus
+#cinst adobereader
 cinst msysgit
 cinst fiddler
-cinst filezilla
-cinst skype
-cinst paint.net
-cinst ccleaner
-cinst tortoisesvn
-cinst tortoisehg
+#cinst filezilla
+#cinst skype
+#cinst paint.net
+#cinst ccleaner
+#cinst tortoisesvn
+#cinst tortoisehg
 
 
 
