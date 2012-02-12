@@ -10,6 +10,14 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:UrlR
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:CGI"
 
 # # SQL Server
+
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SQLExpress 
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SQLExpressAdv 
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SQLExpressTools 
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SQLManagementStudio 
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SQLNativeClient 
+
+
 # cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SMO 
 # cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SMO32 
 # cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:SQLCE 
@@ -34,11 +42,14 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:MVC2
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:MVC3"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:MVC3Loc"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:MVC3Runtime" 
-# cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Plan9" 
-# cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Plan9Loc" 
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Plan9" 
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Plan9Loc" 
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:AzureAppFabricSDKV1PROD"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:WindowsAzureSDK"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:WindowsAzureToolsVS2010"
+
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:NodeJS"
+cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:iisnode"
 
 # Other
 # cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:WASConfigurationAPI" 
