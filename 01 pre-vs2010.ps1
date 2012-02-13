@@ -12,36 +12,6 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:NETF
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:NETFramework4"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:JUNEAUNETFX4"
 
-
-
-
-# Ninite stuff
-cmd /C "ninite\ninite.exe"
-
-
-
-
-# Chocolatey stuff
-iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
-
-cinst virtualclonedrive
-cinst sysinternals
-#cinst adobereader  #ninit'd
-cinst msysgit
-cinst fiddler
-#cinst filezilla    #ninit'd
-#cinst skype        #ninit'd
-#cinst tortoisesvn
-#cinst tortoisehg
-
-cinst ProgrammersNotepad
-
-# install programmer's notepad, and set configuration
-cinst console-devel
-cp .\console2.config.xml "$env:userprofile\AppData\Roaming\Console\console.xml"
-
-# WebPI command line stuff
-
 # IIS
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IIS7"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:ASPNET"
@@ -71,4 +41,8 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:Wind
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:IISExpress"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:AppFabric"
 cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:AppFabricSetup"
+
+
+# Ninite stuff
+cmd /C "ninite\ninite.exe"
 
