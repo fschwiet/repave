@@ -1,7 +1,4 @@
 
-# Chocolatey stuff
-iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
-
 cinst virtualclonedrive
 cinst sysinternals
 #cinst adobereader  #ninit'd

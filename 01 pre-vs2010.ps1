@@ -46,3 +46,7 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:AppF
 # Ninite stuff
 cmd /C "ninite\ninite.exe"
 
+
+# installing chocolatey requires restarting the console, so do this before next step
+iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
+
