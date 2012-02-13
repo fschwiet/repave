@@ -65,3 +65,6 @@ cmd /C "webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:iisn
 
 # R#
 cinst resharper
+
+# Oracle VM VirtualBox 
+cinst VirtualBox
