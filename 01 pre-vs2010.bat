@@ -26,13 +26,11 @@ iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
 
 cinst virtualclonedrive
 cinst sysinternals
-cinst adobereader
+#cinst adobereader  #ninit'd
 cinst msysgit
 cinst fiddler
-#cinst filezilla
-#cinst skype
-#cinst paint.net
-#cinst ccleaner
+#cinst filezilla    #ninit'd
+#cinst skype        #ninit'd
 #cinst tortoisesvn
 #cinst tortoisehg
 
