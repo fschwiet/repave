@@ -38,11 +38,11 @@ cinst fiddler
 #cinst tortoisesvn
 #cinst tortoisehg
 
+cinst ProgrammersNotepad
 
-
-
-
-
+# install programmer's notepad, and set configuration
+cinst console-devel
+cp .\console2.config.xml "$env:userprofile\AppData\Roaming\Console\console.xml"
 
 # WebPI command line stuff
 
