@@ -24,11 +24,9 @@ cmd /C "ninite\ninite.exe"
 # Chocolatey stuff
 iex ((new-object net.webclient).DownloadString("http://bit.ly/psChocInstall"))
 
-cinst windowstelnet
 cinst virtualclonedrive
 cinst sysinternals
-#cinst notepadplusplus
-#cinst adobereader
+cinst adobereader
 cinst msysgit
 cinst fiddler
 #cinst filezilla
