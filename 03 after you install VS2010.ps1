@@ -66,3 +66,8 @@ cinst resharper
 
 # Oracle VM VirtualBox 
 cinst VirtualBox
+
+# some registry changes
+regedit /s '.\registry\DisableVisualStudioAttachWarning.reg'
+regedit /s '.\registry\replace notepad.reg'
+regedit /s '.\registry\swapCapsLockAndLWin.reg'
