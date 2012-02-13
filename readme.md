@@ -6,4 +6,3 @@ source: http://blog.maartenballiauw.be/post/2011/11/28/Repaving-your-PC-the-easi
 gotchas:
 
 * check if UAC is disabled
-* network should be home network
