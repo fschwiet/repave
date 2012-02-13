@@ -28,7 +28,7 @@
 
 
 
-$webpitTargets = @(
+$webpiTargets = @(
 
     # SQL Server
 
@@ -55,7 +55,7 @@ $webpitTargets = @(
     "iisnode"
 );
 
-cmd /C ("webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpitTargets);
+cmd /C ("webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpiTargets))
 
 # R#
 cinst resharper

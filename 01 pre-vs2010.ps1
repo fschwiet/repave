@@ -45,12 +45,12 @@ $webpiTargets = @(
 
     "IISExpress",
     "AppFabric",
-    "AppFabricSetup",
+    "AppFabricSetup"
 );
 
 
 
-cmd /C ("webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpiTargets);
+cmd /C ("webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpiTargets))
 
 
 # Ninite stuff
