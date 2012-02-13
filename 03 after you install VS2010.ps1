@@ -30,6 +30,10 @@
 
 $webpiTargets = @(
 
+    "IISExpress",
+    "AppFabric",
+    "AppFabricSetup",
+
     # SQL Server
 
     "SQLExpress",

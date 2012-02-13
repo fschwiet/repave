@@ -41,11 +41,7 @@ $webpiTargets = @(
     "StaticContentCompression",
     "Tracing",
     "WindowsAuthentication",
-    "UrlRewrite2",
-
-    "IISExpress",
-    "AppFabric",
-    "AppFabricSetup"
+    "UrlRewrite2"
 );
 
 
