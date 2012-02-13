@@ -3,7 +3,7 @@ $webpiTargets = @(
 
 # Windows Installer
     "WindowsInstaller31",
-    "WindowsInstaller45"
+    "WindowsInstaller45",
 
 # Powershell
     "PowerShell",
