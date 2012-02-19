@@ -11,6 +11,7 @@ cinst curl
 #cinst tortoisehg
 
 cinst ProgrammersNotepad
+cinst P4Merge
 
 # install programmer's notepad, and set configuration
 cinst console-devel
