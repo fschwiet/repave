@@ -13,7 +13,6 @@ cinst curl
 cinst ProgrammersNotepad
 cinst P4Merge
 
-# install programmer's notepad, and set configuration
 cinst console-devel
 cp .\console2.config.xml "$env:userprofile\AppData\Roaming\Console\console.xml"
 
