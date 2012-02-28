@@ -1,0 +1,3 @@
+﻿add quicktime to ninite (for webex)
+
+add openoffice
