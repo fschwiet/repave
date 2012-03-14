@@ -1,3 +1,5 @@
-﻿add quicktime to ninite (for webex)
+﻿get webpi via chocolatey rather than bindeploy (http://chocolatey.org/packages/webpicommandline)
+
+add quicktime to ninite (for webex)
 
 add openoffice
