@@ -21,8 +21,7 @@ $webpiTargets = @(
 cmd /C ("webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpiTargets))
 
 
-# Ninite stuff
-cmd /C "ninite\ninite.exe"
+cmd /C "ninite\ninite.core.exe"
 
 
 # installing chocolatey requires restarting the console, so do this before next step

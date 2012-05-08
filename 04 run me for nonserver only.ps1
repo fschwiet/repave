@@ -1,4 +1,7 @@
 
+
+cmd /C "ninite\ninite.client.exe"
+
 # R#
 cinst resharper
 
