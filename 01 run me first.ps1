@@ -13,7 +13,7 @@ $webpiTargets = @(
     "NETFramework20SP2",
     "NETFramework35",
     "NETFramework4",
-    "JUNEAUNETFX4",
+    "JUNEAUNETFX4"
 );
 
 
