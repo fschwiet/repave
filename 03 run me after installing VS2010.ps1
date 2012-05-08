@@ -31,16 +31,8 @@
 $webpiTargets = @(
 
     "IISExpress",
-    "AppFabric",
-    "AppFabricSetup",
-
-    # SQL Server
-
-    "SQLExpress",
-    "SQLExpressAdv",
-    "SQLExpressTools",
-    "SQLManagementStudio",
-    "SQLNativeClient",
+#    "AppFabric",
+#    "AppFabricSetup",
 
     # Developer tools
     "VISUALSTUDIO2010SP1PATCH",
@@ -61,13 +53,8 @@ $webpiTargets = @(
 
 cmd /C ("webpicmdline\webpicmdline.exe /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpiTargets))
 
-# R#
-cinst resharper
-
 # Oracle VM VirtualBox 
 cinst VirtualBox
 
-# some registry changes
-regedit /s '.\registry\DisableVisualStudioAttachWarning.reg'
 regedit /s '.\registry\replace notepad.reg'
-regedit /s '.\registry\swapCapsLockAndLWin.reg'
+
