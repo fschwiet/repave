@@ -14,34 +14,6 @@ $webpiTargets = @(
     "NETFramework35",
     "NETFramework4",
     "JUNEAUNETFX4",
-
-# IIS
-    "IIS7",
-    "CGI",
-    "ASPNET",
-    "BasicAuthentication",
-    "DefaultDocument",
-    "DigestAuthentication",
-    "DirectoryBrowse",
-    "HTTPErrors",
-    "HTTPLogging",
-    "HTTPRedirection",
-    "IIS7_ExtensionLessURLs",
-    "IISManagementConsole",
-    "IISManagementScriptsAndTools",
-    "IPSecurity",
-    "ISAPIExtensions",
-    "ISAPIFilters",
-    "LoggingTools",
-    "MetabaseAndIIS6Compatibility",
-    "NETExtensibility",
-    "RequestFiltering",
-    "RequestMonitor",
-    "StaticContent",
-    "StaticContentCompression",
-    "Tracing",
-    "WindowsAuthentication",
-    "UrlRewrite2"
 );
 
 
