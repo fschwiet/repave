@@ -1,5 +1,7 @@
-﻿get webpi via chocolatey rather than bindeploy (http://chocolatey.org/packages/webpicommandline)
+﻿don't install .net 4.0 until IIS is installed (the webpi package for .net 4.0 complains alot)
+
+
+get webpi via chocolatey rather than bindeploy (http://chocolatey.org/packages/webpicommandline)
+
 
 add quicktime to ninite (for webex)
-
-add openoffice
