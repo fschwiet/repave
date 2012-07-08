@@ -12,6 +12,7 @@ cinst curl
 
 cinst ProgrammersNotepad
 cinst P4Merge
+cinst putty
 
 cinst console-devel
 cp .\console2.config.xml "$env:userprofile\AppData\Roaming\Console\console.xml"
