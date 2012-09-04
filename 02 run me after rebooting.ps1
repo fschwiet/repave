@@ -17,8 +17,8 @@ $webpiTargets = @(
     "NETFramework4",
     "NETFramework45",
 	
-    "AppFabric",
-    "AppFabricSetup",
+#    "AppFabric",
+#    "AppFabricSetup",
 
     # Developer tools
     "MVC2",
