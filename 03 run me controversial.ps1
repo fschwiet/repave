@@ -1,4 +1,4 @@
-
+.\VerifyRunningAsAdministrator.ps1
 
 cmd /C "ninite\ninite.client.exe"
 
