@@ -31,6 +31,7 @@ cmd /C ("webpicmd /Install /AcceptEula /SuppressReboot /Products:" + [string]::J
 
 cinst virtualclonedrive
 cinst sysinternals
+cinst msysgit  # to set path... le sigh
 cinst githubforwindows
 cinst fiddler
 cinst curl
