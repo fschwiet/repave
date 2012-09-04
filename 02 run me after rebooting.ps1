@@ -1,3 +1,4 @@
+.\VerifyRunningAsAdministrator.ps1
 
 cinst webpicommandline
 

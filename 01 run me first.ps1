@@ -1,3 +1,4 @@
+.\VerifyRunningAsAdministrator.ps1
 
 cmd /C "ninite\ninite.core.exe"
 
