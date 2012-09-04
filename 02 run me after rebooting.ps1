@@ -24,7 +24,7 @@ $webpiTargets = @(
     "MVC2",
     "MVC3",
     "Plan9",
-    "Plan9Loc",
+    "Plan9Loc"
 );
 
 cmd /C ("webpicmd /Install /AcceptEula /SuppressReboot /Products:" + [string]::Join(",", $webpiTargets))
