@@ -21,9 +21,6 @@ $webpiTargets = @(
 #    "AppFabric",
 #    "AppFabricSetup",
 
-    # Developer tools
-    "MVC2",
-    "MVC3",
     "Plan9",
     "Plan9Loc"
 );
@@ -37,6 +34,8 @@ cinst githubforwindows
 cinst fiddler
 cinst curl
 cinst putty
+cinst aspnetmvc -version 2.0
+cinst aspnetmvc -version 3.0
 
 cinst VirtualBox
 cinst P4Merge
