@@ -1,3 +1,9 @@
+.\VerifyRunningAsAdministrator.ps1
+
+Import-Module .\Boxstarter\Boxstarter.Chocolatey\Boxstarter.Chocolatey.psd1
+
+$shouldEnableUac = Get-UAC;
+Disable-UAC
 
 Install-WindowsUpdate -AcceptEula
 Update-ExecutionPolicy Unrestricted
@@ -13,10 +19,7 @@ cinst IIS-ASPNET -source windowsfeatures
 cinst IIS-ASPNET45 -source windowsfeatures
 cinst IIS-ManagementConsole -source windowsfeatures
 
-try {
 
-    Write-ChocolateySuccess 'MyPackage'
-} catch {
-  Write-ChocolateyFailure 'MyPackage' $($_.Exception.Message)
-  throw
+if ($shouldEnableUac) {
+    Enable-UAC
 }
